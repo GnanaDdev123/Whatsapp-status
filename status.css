@@ -1,0 +1,169 @@
+#status{
+    border: 1px solid;
+    height: 615px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(91, 88, 88);
+}
+.st-c{
+    height: 614px;
+    width: 420px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    position: relative;
+    right: 20px;
+}
+.arrow_back{
+    position: relative;
+    right: 390px;
+    height: 25px;
+    width: 25px;
+    top: 20px;
+}
+.arrow_back1{
+    position: relative;
+    right: 420px;
+    height: 30px;
+    width: 30px;
+    top: 280px;
+}
+.arrow_back2{
+    position: relative;
+    left: 800px;
+    height: 25px;
+    width: 25px;
+    top: 20px;
+}
+
+.stutes-l{
+    border: 0px solid;
+    height: 130px;
+    width: 420px;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow-x:scroll ;
+
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+.obito:hover{
+    height:65px ;
+    width: 65px;
+    border:3px solid rgba(255, 217, 0, 0.87) ;
+    display: flex;
+    justify-self: center;
+}
+.obito-img:hover{
+    height: 61px;
+    width: 61px ;
+}
+.obito{
+    border-radius: 50px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:green;
+    height: 62px;
+    width: 62px;
+}
+.obito-img{
+    height: 60px;
+    width: 60px ;
+    border-radius: 50px;
+    position: relative;
+}
+iframe{
+    height: 250px;
+    width: 420px;
+    border: 0px solid;
+    /* background-color: rgb(159, 5, 5); */
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    align-items: center;  
+}
+.cb{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  top: 25px;
+  height: 54px;
+  width: 950px;
+  /* border: 1px solid  #ece5dd; */
+  /* background-color:  #ece5dd; */
+
+  }
+  .emoji {
+   
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+  }
+  .em {
+    height: 30px;
+    width: 30px;
+  }
+  .plus {
+    position: relative;
+    left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+  }
+  .input1 {
+    position: relative;
+    left: 20px;
+    height: 35px;
+    width: 762px;
+    border-radius: 7px;
+    border: 1px solid;
+    font-size: 15.5px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 51, 51)
+  }
+  .input1:hover{
+    background-color:white;
+    height:40px ;
+
+  }
+  .voice {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .micro {
+    height: 27px;
+    width: 27px;
+    color: #000;
+  }
+  .plus:hover{
+    background-color: white;
+  }
+  .emoji:hover{
+    background-color: white;  
+  }
+  .voice:hover{
+    background-color: white;
+  }
